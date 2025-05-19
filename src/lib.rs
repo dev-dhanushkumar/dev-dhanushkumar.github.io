@@ -6,6 +6,7 @@ use crate::pages::{home::Home, not_found::NotFound, about::About, projects::Proj
 
 mod layouts;
 mod pages;
+mod components;
 
 #[component]
 pub fn App() -> impl IntoView {
