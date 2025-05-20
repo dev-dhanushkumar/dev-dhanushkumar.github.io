@@ -4,12 +4,12 @@ use crate::components::prose::Prose;
 #[component]
 pub fn About() -> impl IntoView {
     view! {
-        <div class="@container mx-auto flex flex-col  justify-between w-full max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div class="@container mx-auto flex flex-col  justify-between w-full max-w-5xl px-4 sm:px-6 lg:px-8 mb-10">
             <main class="prose text-lg dark:prose-invert">
                 <article>
                     <div class="w-full md:flex md:items-center gap-16 mb-10">
                         <div class="text-pretty leading-9">
-                            <h1 class="text-4xl font-bold mb-4">"Hi There 👋, Dhanush Kuamr Here!" </h1>
+                            <h1 class="text-3xl font-bold mb-4">"Hi There 👋, Dhanush Kumar Here!"</h1>
                             <Prose>
                             <div class="text-lg">
                                 <p>"I'm a passionate software developer from India, specializing in efficient and high-performance software development 
