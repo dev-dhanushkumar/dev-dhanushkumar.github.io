@@ -6,3 +6,14 @@ pub fn slugify(input: &str) -> String {
     slug = slug.split_whitespace().collect::<Vec<_>>().join("-");
     slug
 }
+
+
+pub fn unslugify(slug: &str) -> String {
+    slug.replace("-", " ").split(' ').map(|s| {
+        let mut c = s.chars();
+        match c.next() {
+            None => String::new(),
+            Some(f) => f.to_uppercase().collect::<String>() + c.as_str(),
+        }
+    }).collect::<Vec<_>>().join(" ")
+}
