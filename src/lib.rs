@@ -2,7 +2,7 @@ use leptos::prelude::*;
 use leptos_meta::*;
 use leptos_router::{components::*, path};
 use crate::layouts::{base_header::BaseHeader, header::Header};
-use crate::pages::{home::Home, not_found::NotFound, about::About, projects::index::Projects, posts::Posts, tags::Tags};
+use crate::pages::{home::Home, not_found::NotFound, about::About, projects::index::Projects, posts::Posts, tags::index::Tags};
 
 mod layouts;
 mod pages;
