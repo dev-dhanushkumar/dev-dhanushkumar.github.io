@@ -2,7 +2,7 @@ use leptos::prelude::*;
 use leptos_meta::*;
 use leptos_router::{components::*, path};
 use crate::layouts::{base_header::BaseHeader, header::Header};
-use crate::pages::{home::Home, not_found::NotFound, about::About, projects::index::Projects, posts::Posts, tags::index::Tags};
+use crate::pages::{home::Home, not_found::NotFound, about::About, projects::index::Projects, posts::Posts, tags::index::Tags, tags::tags::TagPage, blog_post_detail::BlogPostDetails};
 
 mod layouts;
 mod pages;
@@ -19,6 +19,7 @@ pub fn App() -> impl IntoView {
         
         <Title text="Welcome to leptos CSR" />
         <link data-trunk rel = "copy-dir" href = "/public/images" />
+        <link data-trunk rel = "copy-dir" href = "/src/content/blog" />
         <BaseHeader 
             title = "dev-dhanushkumar-portfolio".to_string()
             description = "Welcome to my portfolio".to_string()
@@ -40,6 +41,8 @@ pub fn App() -> impl IntoView {
                     <Route path = path!("/projects") view = Projects />
                     <Route path = path!("/posts") view = Posts />
                     <Route path = path!("/tags") view = Tags />
+                    <Route path = path!("/tags/:tag") view = TagPage />
+                    <Route path = path!("/posts/:posts") view = BlogPostDetails />
                 </Routes>
             </main>
         </Router>
