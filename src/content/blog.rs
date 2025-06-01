@@ -41,6 +41,14 @@ pub fn load_blog_posts() -> Vec<BlogPost> {
     posts
 }
 
+pub fn get_blog_post_by_slug(slug: &str) -> Option<BlogPost> {
+    let index_path = format!("{slug}/index.md");
+    BLOG_DIR.get_file(&index_path).and_then(|file| {
+        let content = file.contents_utf8()?;
+        parse_post_metadata(content, slug)
+    })
+}
+
 
 
 fn parse_post_metadata(content: &str, slug: &str) -> Option<BlogPost> {
@@ -56,4 +64,22 @@ fn parse_post_metadata(content: &str, slug: &str) -> Option<BlogPost> {
 
     post.slug = slug.to_string();
     Some(post)
+}
+
+
+pub fn strip_front_matter(md: &str) -> String {
+    let mut lines = md.lines();
+    // must start with `---`
+    if lines.next().map(str::trim) != Some("---") {
+        return md.to_string();
+    }
+    // skip until the next `---`
+    for line in &mut lines {
+        if line.trim() == "---" {
+            // everything after this line is the body
+            return lines.collect::<Vec<_>>().join("\n");
+        }
+    }
+    // no closing marker → nothing left
+    String::new()
 }
