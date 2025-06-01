@@ -1,0 +1,18 @@
+<html>
+<head>
+    
+    
+<link rel="modulepreload" href="/dev-dhanushkumar-protfolio-a1b7cbd3d597dbdf.js" crossorigin="anonymous" integrity="sha384-iBABIi8xj8trC7JalnYxyn4PC/JxP9dKKATs8oXLJmW5D9sRiaMU7nkx08aer7Lg"><link rel="preload" href="/dev-dhanushkumar-protfolio-a1b7cbd3d597dbdf_bg.wasm" crossorigin="anonymous" integrity="sha384-JPlFDL6qvKKZxI74xbA9lU1u1BCICKm5HTe9+s0LVnCgtaWjGqZ60yfzcmfaIrBR" as="fetch" type="application/wasm"></head>
+<body>
+<script type="module">
+import init, * as bindings from '/dev-dhanushkumar-protfolio-a1b7cbd3d597dbdf.js';
+const wasm = await init({ module_or_path: '/dev-dhanushkumar-protfolio-a1b7cbd3d597dbdf_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>
