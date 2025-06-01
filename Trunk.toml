@@ -6,7 +6,7 @@ release = false
 # Use a custom cargo profile. Overrides the default chosen by cargo. Ignored if the >
 # cargo_profile = ""
 # The output dir for all final assets.
-dist = "dist"
+dist = "docs"
 # The public URL from which assets are to be served.
 public_url = "/"
 # Whether to include hash values in the output file names.
@@ -72,5 +72,5 @@ command_arguments = [
     "-i",
     "style/input.css",
     "-o",
-    "dist/.stage/tailwind.css",
+    "docs/.stage/tailwind.css",
 ]

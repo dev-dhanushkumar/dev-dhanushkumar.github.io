@@ -19,6 +19,7 @@ serde_yaml = "0.9.34"
 chrono = { version = "0.4.41", features = ["serde"] }
 deunicode = "1.6.2"
 include_dir = "0.7"
+pulldown-cmark = "0.9"
 
 [package.metadata.leptos]
 ssr = false
