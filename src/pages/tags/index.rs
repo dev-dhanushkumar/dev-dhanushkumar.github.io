@@ -30,7 +30,7 @@ pub fn Tags() -> impl IntoView {
     }
 
     view! {
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 mt-10">
+        <div class="@container mx-auto flex flex-col mt-10 justify-between w-full max-w-5xl px-4 sm:px-6 lg:px-8">
             <div class="mb-10">
                 <h1 class="text-3xl font-bold mb-2">"All Tags"</h1>
                 <p class="text-zinc-700 dark:text-zinc-300 text-lg">"Post tags: concise keywords categorizing content for easy navigation and improved searchability"</p>
