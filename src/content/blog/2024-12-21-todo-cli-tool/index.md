@@ -6,7 +6,7 @@ description: 'Mytask is a straightforward command-line tool designed to help you
 pubDate: '2024-12-21'
 updatedDate: '2024-12-21'
 tags: ["Cli", "Tool", "Golang"]
-coverImage: './blog-cli-image.jpg'
+coverImage: '/blog/2024-12-21-todo-cli-tool/blog-cli-image.jpg'
 ---
 
 ## Introduction

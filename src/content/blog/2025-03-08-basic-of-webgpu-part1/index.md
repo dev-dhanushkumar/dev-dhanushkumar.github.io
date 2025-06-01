@@ -6,7 +6,7 @@ description: 'WebGPU is a modern graphics and compute API for the web that allow
 pubDate: '2025-03-08'
 updatedDate: '2025-03-08'
 tags: ["WevGPU", "javascript", "tech"]
-coverImage: './webgpu_cover.png'
+coverImage: '/blog/2025-03-08-basic-of-webgpu-part1/webgpu_cover.png'
 ---
 
 ## Introduction to WebGPU API

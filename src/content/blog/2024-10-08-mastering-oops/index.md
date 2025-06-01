@@ -6,7 +6,7 @@ description: 'Object-Oriented Programming (OOP) is a programming paradigm that m
 pubDate: '2024-10-08'
 updatedDate: '2024-10-08'
 tags: ["Java"]
-coverImage: './mastering-oops.jpg'
+coverImage: '/blog/2024-10-08-mastering-oops/mastering-oops.jpg'
 ---
 
 

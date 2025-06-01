@@ -6,7 +6,7 @@ description: 'List is an ordered collection (also known as a sequence) that allo
 pubDate: '2024-10-19'
 updatedDate: '2024-10-19'
 tags: ["java", "collections"]
-coverImage: './Array_list_image.jpg'
+coverImage: '/blog/2024-10-19-mastering-arraylist/Array_list_image.jpg'
 ---
 
 ## Introduction
