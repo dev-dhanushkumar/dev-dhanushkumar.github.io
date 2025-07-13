@@ -79,7 +79,6 @@ I enjoy taking on projects that range from fun to challenging, always aiming to 
   <a href="https://discord.com/users/dhanush0307"><img alt="Static Badge" src="https://img.shields.io/badge/discord-purple?style=for-the-badge&logo=discord&logoColor=white"></a>&nbsp;
   <a href="https://www.linkedin.com/in/dhanush-kumar-b61a73282/"><img alt="Static Badge" src="https://img.shields.io/badge/linkedin-blue?style=for-the-badge&logo=linkedin&logoColor=white"></a>&nbsp;
   <a href="https://t.me/dhanush_M_003"><img alt="Static Badge" src="https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram&logoColor=white"></a>
-  <a href="https://www.instagram.com/dev_dhanushkumar"><img alt="Static Badge" src="https://img.shields.io/badge/instagram-yellow?style=for-the-badge&logo=instagram&logoColor=pink"></a>
 </p>
 
 
