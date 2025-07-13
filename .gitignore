@@ -29,5 +29,5 @@ pnpm-debug.log*
 
 .idx
 
-.github
+# Note: .github/workflows should NOT be ignored for GitHub Actions to work
 
