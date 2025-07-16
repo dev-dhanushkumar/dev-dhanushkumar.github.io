@@ -19,13 +19,16 @@ I enjoy taking on projects that range from fun to challenging, always aiming to 
 
 
 ## 📕 Latest Blog Posts
+- [NAT Traversal: A Visual Guide to UDP Hole Punching](https://dev.to/dev-dhanushkumar/nat-traversal-a-visual-guide-to-udp-hole-punching-1936)
+- [What is NAT? Understanding Types of NAT Made Simple](https://dev.to/dev-dhanushkumar/what-is-nat-understanding-types-of-nat-made-simple-4eh)
 - [Part 1: Introduction and basic of WebGPU](https://dev.to/dev-dhanushkumar/part-1-introduction-and-basics-of-webgpu-46i0)
 - [MyTask ToDo CLI tool using Golang](https://dev.to/dev-dhanushkumar/mytask-todo-cli-tool-2kej)
 - [Mastering Object-Oriented Programming in Java: A Comprehensive Guide](https://dev.to/dev-dhanushkumar/mastering-object-oriented-programming-in-java-a-comprehensive-guide-258k)
 - [Mastering-Java-Arraylists-a-Comprehensive-Guide](https://dev.to/dev-dhanushkumar/mastering-java-arraylists-a-comprehensive-guide-4h0)
 
+
 <p align="left">
-<a href="https://medium.com/@dhanushkumar2682"><img alt="Static Badge" src="https://img.shields.io/badge/medium-black?style=for-the-badge&logo=medium&logoColor=white"></a>&nbsp;
+<a href="https://dev-dhanushkumar.medium.com/"><img alt="Static Badge" src="https://img.shields.io/badge/medium-black?style=for-the-badge&logo=medium&logoColor=white"></a>&nbsp;
   <a href="https://stackoverflow.com/users/23688025/dev-dhanushkumar"><img alt="Static Badge" src="https://img.shields.io/badge/stackoverflow-orange?style=for-the-badge&logo=stackoverflow&logoColor=white"></a>&nbsp;
   <a href="https://dev.to/dev-dhanushkumar"><img alt="Static Badge" src="https://img.shields.io/badge/dev-black?style=for-the-badge&logo=dev&logoColor=white"></a>
 </p>
@@ -76,9 +79,11 @@ I enjoy taking on projects that range from fun to challenging, always aiming to 
 -->
 ## 💬 Connect with me
 <p align="left">
-  <a href="https://discord.com/users/dhanush0307"><img alt="Static Badge" src="https://img.shields.io/badge/discord-purple?style=for-the-badge&logo=discord&logoColor=white"></a>&nbsp;
+  <a href="https://discord.com/users/dev_dhanushkumar"><img alt="Static Badge" src="https://img.shields.io/badge/discord-purple?style=for-the-badge&logo=discord&logoColor=white"></a>&nbsp;
   <a href="https://www.linkedin.com/in/dhanush-kumar-b61a73282/"><img alt="Static Badge" src="https://img.shields.io/badge/linkedin-blue?style=for-the-badge&logo=linkedin&logoColor=white"></a>&nbsp;
-  <a href="https://t.me/dhanush_M_003"><img alt="Static Badge" src="https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram&logoColor=white"></a>
+  <a href="https://t.me/dev_dhanushkumar"><img alt="Static Badge" src="https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram&logoColor=white"></a>
+  <a href="https://www.instagram.com/dev_dhanushkumar"><img alt="Static Badge" src="https://img.shields.io/badge/instagram-pink?style=for-the-badge&logo=instagram&logoColor=purple"></a>
+  <a href="https://x.com/devdhanushkumar"><img alt="Static Badge" src="https://img.shields.io/badge/X-black?style=for-the-badge&logo=x&logoColor=white"></a>
 </p>
 
 
