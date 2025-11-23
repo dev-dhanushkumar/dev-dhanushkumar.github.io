@@ -1,4 +1,4 @@
-import { getRepositoryDetails } from "../../utils";
+
 
 export interface Project {
   name: string;
@@ -44,7 +44,7 @@ export const projects: Project[] = [
   },
   {
     name: 'Golang-ToDo-List-CLI-Tool',
-    description:'command-line tool designed to help you manage your daily tasks efficiently',
+    description: 'command-line tool designed to help you manage your daily tasks efficiently',
     demoLink: 'https://github.com/dev-dhanushkumar/Golang-Projects/tree/main/golang_task',
     postLink: 'https://dev.to/dev-dhanushkumar/mytask-todo-cli-tool-2kej',
     tags: ['CLI', 'Golang']

@@ -2,13 +2,11 @@
 import { SITE_TITLE, SITE_TAGLINE, SITE_DESCRIPTION } from '../consts';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { Image } from 'astro:assets';
 import type { CollectionEntry } from 'astro:content';
-import Ava from '@src/assets/img/dev-dhanushkumar.jpeg';
-import Prose from '../components/Prose.astro';
 import { projects } from './projects/projects';
 import ProjectList from '../components/ProjectList.astro'
 import PostItem from '../components/PostItem.astro';
+import Hero from '../components/Hero.astro';
 
 type BlogPost = CollectionEntry<'blog'>;
 
@@ -17,45 +15,33 @@ const posts = (await getCollection('blog')).sort((a: BlogPost, b: BlogPost) => b
 ---
 
 <BaseLayout title={SITE_TITLE + ' - ' + SITE_TAGLINE} description={SITE_DESCRIPTION}>
-	<div class='container'>
-		<div class='w-full md:flex md:items-center gap-16 mb-10'>
-      <div class="text-pretty leading-9">
-        <h1 class="text-4xl font-bold mb-4">Hi There 👋, Dhanush Kumar! </h1>
-        <Prose>
-          <div class="text-lg">
-            <p>I'm a passionate software developer from India, specializing in efficient and high-performance software development 
-              from scratch. I enjoy researching, building scalable APIs and web servers, and sharing my knowledge on <a href="https://dev.to/dev-dhanushkumar" target="_blank">dev.to</a>  and 
-              <a href="https://stackoverflow.com/users/23688025/dev-dhanushkumar" target="_blank">stack overflow</a>. 
-            </p>
-            <p>Proficient in Rust, Java, Golang, and JavaScript, I focus on writing optimized and secure code that 
-              enhances system performance. I also have expertise in Docker, Kubernetes, and DevOps, enabling me to build scalable, 
-              secure, and optimized applications.
-            </p>  
-          </div>
-        </Prose>
-      </div>
-      <Image src={Ava} alt="Dev Dhanushkumar" width={300}  loading="eager" class="rounded-3xl h-40px rotate-3 mx-4 md:mx-0"/>
-		</div>
+	<Hero />
+	<div class='container mx-auto px-4 py-12'>
 		<main>
-      <div class='mt-6 mb-12'>
-        <div class="flex justify-between gap-2 border-b mb-1 dark:border-b-zinc-700">
-          <h2 class="text-lg font-bold mb-3">Recent Posts</h2>
-          <a href="/posts/" class="inline-block py-2 underline dark:prose-invert">All posts &raquo;</a>
+      <div class='mb-20'>
+        <div class="flex justify-between items-end gap-4 mb-8 border-b border-zinc-200 dark:border-zinc-800 pb-4">
+          <h2 class="text-3xl font-bold text-zinc-900 dark:text-white">Recent Posts</h2>
+          <a href="/posts/" class="text-blue-600 dark:text-blue-400 font-medium hover:underline flex items-center gap-1">
+            All posts 
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
         </div>
-        <div>
+        <div class="grid gap-8">
           {
             posts.map((post: BlogPost) => (
               <PostItem post={post} />
             ))
           }      
         </div>
-        <div class="text-right">
-        </div>
       </div>
-      <div>
-        <div class="flex justify-between gap-2 mb-1">
-          <h2 class="text-lg font-bold mb-3">My Projects</h2>
-          <a href="/projects/" class="inline-block py-2 underline dark:prose-invert">All projects &raquo;</a>
+      
+      <div id="projects" class="scroll-mt-24">
+        <div class="flex justify-between items-end gap-4 mb-8 border-b border-zinc-200 dark:border-zinc-800 pb-4">
+          <h2 class="text-3xl font-bold text-zinc-900 dark:text-white">Featured Projects</h2>
+          <a href="/projects/" class="text-blue-600 dark:text-blue-400 font-medium hover:underline flex items-center gap-1">
+            All projects 
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
         </div>
         <ProjectList projects={top6Projects}/>
       </div>
